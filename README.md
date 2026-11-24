@@ -1,3 +1,10 @@
+> **Mirror kept for Kyōkasho (NOxygen59).** `microsoft/onnxruntime-swift-package-manager` returned 404 and
+> `download.onnxruntime.ai` went offline in November 2026. This repository keeps Microsoft's history unchanged (MIT,
+> see `LICENSE`). Branch `kyokasho` = tag `1.24.2` (`b7fb7f7`) with one change: the two binary archives are
+> downloaded from this repository's release `binaires-1.24.2`. They are Microsoft's original files: SHA-256 checksums
+> are the ones from Microsoft's `Package.swift`, unchanged (`f7100a99…6e600b54`, `346522d1…7b33e6b5`).
+> Not affiliated with Microsoft.
+
 # Swift Package Manager for ONNX Runtime
 
 A light-weight repository for providing [Swift Package Manager (SPM)](https://www.swift.org/package-manager/) support for [ONNXRuntime](https://github.com/microsoft/onnxruntime). The ONNX Runtime native package is included as a binary dependency of the SPM package.
